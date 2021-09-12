@@ -184,5 +184,5 @@ bar {
 ## Custom mods
 
 #bindsym $mod+Shift+a exec "~/.pi3/i3locker.sh"
-exec xautolock -detectsleep -time 4 -locker "i3lock -d -i ~/.pi3/lock2.png"
+exec xautolock -detectsleep -time 2 -locker "i3lock -b --color=000000"
 exec --no-startup-id xsetroot -solid "#000000"
